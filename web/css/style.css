@@ -1,0 +1,209 @@
+html,body{
+    color: #b7bcbe;
+    font-family: "Roboto", sans-serif;
+    background-color:#1f2122;
+    font-size: 15px;
+    padding:0;
+    margin:0;
+    text-align: center;
+}
+
+a,a:visited,a:active{
+    color:#FFF;
+}
+
+.header-wrapper > .usr-menu > a {
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.header-wrapper .usr-menu .lang {
+
+}
+
+.section {
+    margin-top:20px;
+    /*border: 1px solid #000;*/
+    display: flex;
+}
+
+.subsection {
+    flex: 1;
+    padding-top:10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:20px;
+}
+
+.subsection.ssleft {
+    width: 50%;
+    display: inline-block;
+}
+
+
+.subsection.ssright {
+    width: 50%;
+    display: inline-block;
+}
+
+.body-wrapper{
+    padding-top:0px;
+    /*padding-left:100px;
+    padding-right: 100px;*/
+    background-color:#32353a;
+
+}
+
+.center-content{
+    max-width:1100px;
+    width:100%;
+    text-align: left;
+    /*display:flex;
+    justify-content: center;*/
+    display:inline-block;
+    background-color:#32353a;
+    margin-top:20px;
+}
+
+
+.nav-menu {
+    height:70px;
+}
+.nav-menu img{
+    padding-top:5px;
+    height:60px;
+}
+
+.artTitle{
+    font-size: 36px;
+    color:#FFF;
+    text-transform: uppercase;
+}
+
+.artTitle.center{
+    text-align: center;
+}
+
+.artBody{
+
+}
+
+.terms{
+    width:100%;
+    border-top:2px solid #000;
+    border-left:2px solid #000;
+    border-right:2px solid #FFF;
+    border-bottom:2px solid #FFF;
+}
+
+.newsTitle{
+    font-size: 30px;
+    color: rgb(183, 188, 190);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.newsEntry .date{
+    font-size: 20px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+hr{
+    height:2px;
+    border:none;
+    background-color: #46494f;
+}
+
+.footNote{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.errorNotice{
+    border:1px solid #F00;
+    margin:5px;
+}
+
+.infoNotice{
+    border:1px solid #0AF;
+    margin:5px;
+}
+
+.main-menu{
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.main-menu a {
+    margin:5px;
+    text-transform: uppercase;
+}
+
+.admin-menu{
+    background-color: #46494f;
+    padding: 10px;
+}
+
+.admin-menu a{
+    margin:5px;
+}
+
+.center-area-wrapper{
+    width:100%;
+}
+
+.center-area-wrapper > div{
+    left:50%;
+    margin-left:-150px;
+    width:300px;
+    position:relative;
+}
+
+.center-area-wrapper > div form,
+.center-area-wrapper > div table,
+.center-area-wrapper > div input[type=text],
+.center-area-wrapper > div select,
+.center-area-wrapper > div input[type=password]
+{
+    width:100%;
+}
+
+
+.iForm label{
+    margin-top:5px;
+    margin-bottom:5px;
+    display:inline-block;
+}
+
+.iForm input, .iForm select, .iForm input[type=number]{
+    height:25px;
+    border:1px solid #CCC;
+    outline: none;
+    -webkit-appearance: none;
+}
+
+.iForm input[type=number]{
+    width:100%;
+}
+
+.iForm input[type=checkbox]{
+    width:16px;
+    height:16px;
+    border:2px solid #CCC;
+    background:#FFF;
+    top:5px;
+    position:relative;
+    color:#000;
+}
+
+.iForm input[type=checkbox]:checked{
+    background-color:#00AAFF;
+}
+
+.iForm textarea{
+    width:100%;
+}
