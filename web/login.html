@@ -1,0 +1,70 @@
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>Associa&ccedil;&atilde;o In&eacute;rcia</title>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/workbench.css" rel="stylesheet"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="js/common.js"></script>
+</head>
+<body>
+<div class="center-content">
+    <div class="header-wrapper">
+        <div class="nav-menu">
+            <a href="/"><img src="img/inercia_logo_grad.svg" alt="inercia.pt"></a>
+            <div class="main-menu">
+                <a href="/">Início</a>
+                <a href="/?viewArticle=events">Eventos</a>
+                <a href="/?viewArticle=contacts">Contactos</a>
+
+                <a href="/?login">Entrar&#x1F510;</a>
+
+                <select class="lang">
+                    <option value="pt">PT</option>
+                    <option value="en">EN</option>
+                </select>
+            </div>
+        </div>
+
+        <hr/>
+
+    </div>
+
+    <div class="body-wrapper">
+
+        <div class="center-area-wrapper">
+            <div>
+                <h2>Entrar</h2>
+                <form method="POST" action="?login" class="iForm">
+
+                    <input type="hidden" name="action" value="doLogin>"/>
+                    <label for="email">Email</label>
+
+                    <input type="text" id="email"
+                           name="email"
+                           value=""/>
+
+                    <label for="usrpwd">Password</label>
+                    <input type="password"id="usrpwd" name="usrpwd" />
+
+                    <br/><br/>
+                    <input type="submit" value="Login"/>
+                </form>
+                <hr/>
+                <a href="?recover">Esqueci-me da password</a>
+            </div>
+        </div>
+
+
+        <hr/>
+        <div class="footNote">2023 Associação Inércia</div>
+    </div>
+</div>
+</body>
+</html>
